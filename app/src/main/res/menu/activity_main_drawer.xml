@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_movies"
+            android:icon="@drawable/ic_movies"
+            android:title="@string/menu_movies" />
+        <item
+            android:id="@+id/nav_tvshow"
+            android:icon="@drawable/ic_movies"
+            android:title="@string/menu_tvshow" />
+        <item
+            android:id="@+id/nav_upcoming"
+            android:icon="@drawable/ic_movies"
+            android:title="@string/menu_upcoming" />
+        <item
+            android:id="@+id/nav_populer"
+            android:icon="@drawable/ic_movies"
+            android:title="@string/menu_populer" />
+    </group>
+
+</menu>
